@@ -1,6 +1,10 @@
-let ftScript = document.getElementById("footer-script")
+function toggleTheme() {
+    document.body.classList.toggle("dark");
+}
+  
+const ftScript = document.getElementById("footer-script")
 
-ftScript.innerHTML = `<p>
+ftScript.innerHTML += `<p>
 <a href="https://github.com/vorthkor" >
     <img src="https://louphole.com/images/icons/Github.png" alt="github"/>
 </a> | *2023_planet_Earth* |_

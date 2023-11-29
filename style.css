@@ -1,8 +1,18 @@
+* {
+  background: #333439;
+  color: #f6f6f6;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
   margin: 3vh;
+  display: flex;
 }
 
 img {
   height: 33px;
+}
+
+#footer {
+  text-align: center;
 }
